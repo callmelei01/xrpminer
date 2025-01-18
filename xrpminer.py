@@ -105,7 +105,7 @@ class Xrpminer:
         return response.content
         
   def count_time(self):
-    for sleep in range(60, 0, -1):
+    for sleep in range(35, 0, -1):
       print(f"[bold bright_black]   ╰─>[bold green] {sleep}s[/]     ", end='\r')
       time.sleep(1)
     self.login()
